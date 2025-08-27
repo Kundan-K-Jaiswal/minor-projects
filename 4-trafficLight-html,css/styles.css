@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Styling Traffic Light Container  */
+.light-container{
+    height:500px;
+    width:200px;
+    background-color: black;
+    margin:50px;
+    border-radius: 15px ;
+    padding-top: 30px;
+}
+
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+
+/* Styling Light Circles */
+.light-container div {
+    height:130px;
+    width:130px;
+    margin:auto;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+/* Setting Animation For Glowing Red  */
+#red{
+  animation-name: glowred;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes glowred {
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: red;
+  }
+  34% {
+    background-color: rgb(129, 134, 129); 
+  }
+  100%{
+    background-color: rgb(129, 134, 129);
+  }
+}
+
+
+/* Setting Animation For Glowing Yellow */
+#yellow {
+  animation-name: glowyellow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes glowyellow {
+  0% {
+    background-color: rgb(129, 134, 129);
+  }
+  33% {
+    background-color: rgb(129, 134, 129);
+  }
+  34% {
+    background-color: yellow; 
+  }
+  67% {
+    background-color: yellow;
+  }
+  68% {
+    background-color: rgb(129, 134, 129);
+  }
+  100%{
+    background-color: rgb(129, 134, 129);
+  }
+}
+
+
+/* Setting Animation For Glowing Green */
+    #green{
+      animation-name: glowgreen;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes glowgreen {
+      0% {
+        background-color: rgb(129, 134, 129);
+      }
+      67% {
+        background-color: rgb(129, 134, 129);
+      }
+      68% {
+        background-color: green;
+      }
+      100%{
+        background-color: green;
+    }
+}
+
