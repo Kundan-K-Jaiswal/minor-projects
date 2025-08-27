@@ -1,0 +1,47 @@
+/*code for rectangular loading animation*/
+#container {
+  height : 30px;
+  border : 2px solid black;
+}
+
+#progress {
+  height :30px;
+  animation-name : loading ;
+  animation-duration: 10s;
+  animation-iteration-count: 10;
+}
+
+@keyframes loading {
+  0% {
+    width: 0px;
+    background-color: red;
+  }
+  100% {
+    width : 100%;
+    background-color: rgb(119, 246, 119);
+    /* background-color: darkgreen; */
+  }
+}
+
+
+
+/*code for circular loading animation*/
+#circular-loading {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 15px solid grey;
+  border-top: 15px solid black;
+  animation: spin 1s ease-out infinite;
+}
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
