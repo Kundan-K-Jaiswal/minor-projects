@@ -1,0 +1,99 @@
+/** UNIVERSAL FORMATTING FOR THE PAGE **/
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+
+
+
+.header-pannel-background-image-login  {
+    background-image: url(SIH-Images/Background-Image.jpg);
+    background-position-x: center;
+    height: 750px;
+    background-position-y: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-container {
+    height: 450px;
+    width: 700px;
+    border-radius: 50px;
+    border: 2px solid rgb(250, 229, 147);
+    backdrop-filter: blur(4px);
+}
+
+.main-box{
+    padding: 50px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main-login-text {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',;
+    font-weight: bolder;
+    color: white;
+}
+
+.user-pass-format {
+    margin-top: 40px;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+}
+
+.input-box-format {
+    height: 40px;
+    width:500px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 13px;
+    border-color:rgb(218, 153, 31);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.login-box {
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    background-color:rgba(249, 214, 76, 0.892);
+    border-color: bisque;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    border: 1px solid black;
+}
+.login-box:hover {
+    transform: scale(1.05);
+}
+
+.border-container-bottom {
+    display: flex;
+    gap: 150px;
+    color: white;
+    margin-top: 10px;
+}
+
+.border-container-bottom div a {
+    text-decoration: none;
+    color:white;
+    align-items: center;
+}
+
+.border-container-bottom div a:hover {
+    color: rgba(255, 0, 0, 0.78);
+}
+
+.new-user-format {
+    display: flex;
+    gap: 10px;
+    color: #cccccc;
+}

@@ -1,0 +1,556 @@
+/** UNIVERSAL FORMATTING FOR THE PAGE **/
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+
+
+/** FOR BACKGROUND IMAGE SETTING **/
+.header-pannel-background-image {
+    background-image: url(SIH-Images/Background-Image.jpg);
+    background-position-x: center;
+}
+.header-pannel-background-image-home  {
+    height: 750px;
+    background-position-y: top;
+}
+.header-pannel-background-image-interface {
+    height: 500px;
+    background-position-y: 700px;
+}
+
+
+/** FOR LINE SETTING **/
+.home-line {
+    border-top: 1px solid rgba(255, 255, 255, 0.407);
+}
+.interface-line {
+    border-top: 1px solid rgb(255, 253, 156);
+}
+
+
+/** HEADER PANNEL FORMAT **/
+.header-pannels {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+
+/** ONLY FOR HOME PAGE'S FIRST NAV-BAR **/
+.header-pannel-team-name {
+    background-color: rgba(5, 250, 254, 0.4);
+    border-radius: 5px;
+    width: 150px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #0f1111;
+    cursor: default;
+}
+
+.header-pannel-problem-statement-name {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+.header-pannel-content01 {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 20px;
+}
+.header-pannel-content01 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-pannel-content01 a:hover {
+    text-decoration: underline;
+}
+
+
+
+/** HEADER PANNEL INNER 02 **/
+.header-pannel-bar {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.header-pannel-logo img {
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.header-pannel-web-name p {
+    font-size: 25px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:default;
+}
+
+.header-pannel-content02 {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    gap: 30px;
+}
+.header-pannel-content02 a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+.header-pannel-content02 a:hover {
+    transform: scale(1.05);
+}
+
+.header-pannel-inner-02-background-color {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/** SIGN IN BUTTON AND SETTING BUTTON FORMAT **/
+.signin-button {
+    margin-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.signin-button i {
+    color: #cccccc;
+    margin-left: 5px;
+    cursor:pointer;
+}
+.signin-button:hover {
+    transform: scale(1.05);
+}
+.signin-button a:hover {
+    transform: none;
+}
+
+.setting-button {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    margin-right: 20px;
+}
+.setting-button i {
+    color: #cccccc;
+    cursor:pointer;
+}
+.setting-button:hover {
+    transform: scale(1.05);
+}
+
+
+/** ONLY FOR HOME PAGE'S HERO TEXT **/
+.herotext-01 {
+    display: flex;
+    justify-content: center;
+}
+
+.herotext-01-blur {
+    color: white;
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+    gap: 50px;
+    font-weight: bolder;
+    margin-top: 120px;
+    width: 950px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom: none;
+    
+    backdrop-filter: blur(3px);
+}
+
+first-word {
+    font-size: 100px;
+}
+word {
+    font-size: 65px;
+    color: whitesmoke;
+}
+rest-words {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.herotext-02 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.herotext-02-container {
+    width: 950px;
+    display: flex;
+    font-size: 20px;
+    color: #ffffffbe;
+    text-align: center;
+    justify-content: center;
+    border-top: none;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.herotext-03 {
+    display: flex;
+    justify-content: center;
+}
+
+.herotext-options {
+    margin-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+.herotext-options i {
+    color: #cccccc;
+    margin-left: 15px;
+    cursor:pointer;
+}
+.herotext-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.herotext-options:hover {
+    transform: scale(1.05);
+}
+
+.signin-option {
+    margin-right: 35px;
+}
+
+
+/** ONLY FOR INTERFACE PAGE'S HEADER PANNEL INNER 03 **/
+.header-pannel-inner-03-contents {
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    backdrop-filter: blur(2px);
+}
+.header-pannel-inner-03-contents-i {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.header-pannel-inner-03-contents-i p {
+    color: #cccccc;
+}
+.header-pannel-inner-03-contents-format {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    background-color: #0f111176;
+}
+.header-pannel-inner-03-contents-hovereffecct:hover {
+    transform: scale(1.04);
+}
+
+
+/** ONLY FOR INTERFACE PAGE'S MAIN SECTION **/
+.main-container-interface {
+    height: 1300px;
+    background-color: rgba(128, 128, 128, 0.512);
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+
+
+/** ONLY FOR INTERFACE PAGE'S MAIN CONTAINER 01 **/
+.main-container-01 {
+    margin-top: 40px;
+    padding: 20px;
+    height: 270px;
+    background-color: white;
+    background-image: url(SIH-Images/background-image-02.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    width: 93%;
+}
+
+.main-container-01-language {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#Language {
+    border-radius: 5px;
+}
+
+.main-container-01-text p {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main-container-01-input {
+    margin-top: 10px;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 20px;
+    text-align:center;
+    border: 2px solid;
+    background-color: transparent;
+}
+
+.main-container-01-icon {
+    height: 40px;
+    width: 60px;
+    font-size: 25px;
+    background-color: orange;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 2px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-01-search-bar {
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+/** ONLY FOR INTERFACE PAGE'S MAIN CONTAINER 02 **/
+.main-container-02 {
+    padding: 20px;
+    width: 93%;
+    height: 270px;
+    background-image: url(SIH-Images/background-image-03.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    border-radius: 25px;
+}
+
+.main-container-02-heading {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.game-box-format {
+    height: 230px;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid #cccccc;
+}
+.game-box-format p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0.1px;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #cccccc;
+
+}
+.game-box-format:hover {
+    transform: scale(1.01);
+}
+
+.main-container-02-game-section {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-container-02-game-section-quiz {
+    background-image: url(SIH-Images/quiz-image.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container-02-game-section-fill-in-the-black {
+    background-image: url(SIH-Images/fill-in-the-blank-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container-02-game-section-away-from-snake {
+    background-image: url(SIH-Images/snake-ladder-image.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/** ONLY FOR INTERFACE PAGE'S MAIN CONTAINER 03 **/
+.main-container-03 {
+    padding: 20px;
+    width: 93%;
+    height: 500px;
+    background-image: url(SIH-Images/background-image-06.avif);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 25px;
+    color: #cccccc;
+}
+
+.main-container-03-heading {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    height: 200px;
+    background-color: rgba(228, 228, 228, 0.03);
+    border-radius: 50px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+/** ONLY FOR HOME PAGE'S MAIN CONTAINER 03 **/
+.main-container-home {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-01-home {
+    padding: 20px;
+    width: 93%;
+    /* height: 500px; */
+    background-image: url(SIH-Images/background-image-06.avif);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 25px;
+    color: #cccccc;
+}
+
+
+
+
+
+/** FOOTER FOR BOTH HOME AND INTERFACE OF JUDITECH **/
+.footermain {
+    height: 200px;
+    background-color: #0f1111cb;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+}
+
+.text-01-icons {
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text-02-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footermain-heading {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.text div p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.text div a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/** BACK TO TOP ICON SETTING **/
+.back-to-top-icon {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0,);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.back-to-top-icon:hover {
+    transform: scale(1.09);
+}

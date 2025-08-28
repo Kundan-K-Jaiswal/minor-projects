@@ -1,0 +1,113 @@
+* {
+    margin:0; 
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-image: url(SIH-Images/Background-Image.jpg);
+    background-position-x: center;
+    height: 750px;
+    background-position-y: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    height: 500px;
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 100px;
+    border: 5px solid rgb(250, 229, 147);
+    backdrop-filter:blur(4px);
+    
+}
+
+.input-box-format {
+    border-radius: 6px;
+    font-size: 15px;
+    /* border-style: none; */
+    border: 2px solid rgba(0, 0, 0, 0.701);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+
+.outer-text-style {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.button-style {
+    position:relative;
+    left: 212px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.Sign-in {
+    color: rgb(47, 200, 205);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 50px;
+    /* margin-bottom: -500px; */
+    position: relative;
+    left: 65px;
+    top: 70px;
+    z-index: 5;
+    
+
+}
+
+.button-signin {
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    /* color: white; */
+    background-color: wheat;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: 380px;
+    bottom: 70px;
+    transform:scale(1.2);
+    font-weight: bold;
+}
+.button-signin:hover{
+    transform: scale(1.22);
+}
+
+.Already {
+    /* background-color: rgba(3, 1, 1, 0.22); */
+    width: 300px;
+   font-size: 20px;
+   font-weight: bolder;
+   display: flex;
+   color: white;
+   gap: 15px;
+   margin-left: 580px;
+   margin-top: -20px;
+   /* backdrop-filter: blur(15px); */
+}
+
+.Already a {
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Already a:hover {
+    color: #dc0707;
+}
