@@ -1,0 +1,205 @@
+/** TO STYLE THE NAV BAR 01 **/
+
+/* css variables for color */
+:root {
+  --black: #0f1111;
+  --grey: #cccccc;
+  --orange: rgb(210, 145, 24);
+}
+
+
+/* styling nav size */
+nav {
+  height: 60px;
+  /* width: 100vw; */
+  background-color: var(--black);
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(7,auto);
+  /* align-items: center;
+  justify-content: center; */
+  place-items: center;
+}
+
+
+/* styling amazon logo */
+/* .nav-logo img {
+  width: 125px;
+  background-color: red;
+  } */
+.nav-logo {
+    background-image: url(./amazonCloneAssets/amazon_logo.png);
+    height: 60px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* styling location */
+.nav-address-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+
+.nav-address {
+  display: flex;
+  gap: 0.4em;
+  color: white;
+}
+
+
+/* styling search box */
+.nav-search {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search:hover {
+  border: 2.5px solid orange;
+  border-radius: 5px;
+}
+
+
+.nav-search-options {
+  color: var(--black);
+  width: 50px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-right: 1px solid black;
+  padding-left: 5px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+}
+
+.nav-search-input {
+  height: 40px;
+  width: 35vw;
+  font-size: 15px;
+  border: none;
+  padding-left: 15px;
+  outline: none;
+  color: var(--black);
+}
+
+.nav-search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+  width: 55px;
+  font-size: 25px;
+  background-color: var(--orange);
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.nav-search-icon {
+  color: var(--black);
+}
+
+
+
+/* styling language options */
+.nav-language select option {
+  color: var(--black);
+}
+
+.nav-language i {
+  color: white;
+}
+
+.nav-language-option {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+
+/* styling account & list */
+.nav-account a {
+  text-decoration: none;
+}
+
+
+/* styling return & orders */
+.nav-return {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* styling cart */
+.nav-cart {
+  display: flex;
+  gap: 0.3em;
+  align-items: baseline;
+}
+
+.nav-cart i {
+  color: white;
+  font-size: 35px;
+}
+
+
+
+
+.color-grey {
+  color: var(--grey);
+  font-size: 14px;
+}
+
+.style-bold {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.hover-border:hover {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: .2em;
+  cursor: pointer;
+}
+
+
+
+
+/** TO STYLE THE NAV BAR 02 **/
+.nav-bar-02 {
+    height: 40px;
+    background-color: #112339;
+    display: flex;
+    align-items: center;
+}
+
+.burger-all {
+    display: flex;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.burger-all p {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar-02 a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 18px;
+}

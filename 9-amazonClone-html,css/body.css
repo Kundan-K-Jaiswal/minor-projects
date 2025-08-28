@@ -1,0 +1,592 @@
+/** TO STYLE THE MAIN BODY **/
+.main-body {
+    height: 550px;
+    background-image: url(./amazonCloneAssets/background-image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.main-body-information {
+    height: 40px;
+    width: 96%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.main-body-information p {
+    font-size: 14px;
+    color: #0f1111;
+}
+
+.main-body-information a {
+    font-size: 14px;
+    margin-left: 4px;
+    color: #007185;
+    text-decoration: none;
+}
+
+.main-body-information a:hover {
+    text-decoration: underline;
+    color: #842b2b;
+}
+
+
+
+/** TO STYLE THE MAIN BODY BOXES **/
+.main-body-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.202);
+}
+
+.main-body-boxes-format {
+    height: 380px;
+    width: 270px;
+    padding: 20px;
+    margin-top: -250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 270px;
+}
+
+.main-body-box-heading {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.main-body-box-ending {
+    text-decoration: none;
+    color: #007185;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.main-body-box-ending:hover {
+    color: #9f1e1e;
+}
+
+
+.main-body-inner-boxes-format {
+    height: 130px;
+    width:118px;
+    margin-top: 20px;
+    margin-right: 5px;
+    background-position: center ;
+    background-size:cover;
+}
+.main-body-inner-boxes-format p {
+    font-size: 15px;
+    margin-top: 135px;
+}
+
+.main-body-single-inner-boxes-format {
+    height: 300px;
+    width: 250px;
+    background-position-x: center ;
+    background-size: cover;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.main-body-box-ending-a {
+    margin-top: 15px;
+}
+
+.main-body-box01-001 {
+    background-image: url(./amazonCloneAssets/Gaming-accessories-01.jpg); 
+}
+.main-body-box01-002 {
+    background-image: url(./amazonCloneAssets/Gaming-accessories-02.jpg);
+}
+.main-body-box01-003 {
+    background-image: url(./amazonCloneAssets/Gaming-accessories-03.jpg);
+}
+.main-body-box01-004 {
+    background-image: url(./amazonCloneAssets/Gaming-accessories-04.jpg);
+}
+
+
+.main-body-box02-001 {
+    background-image: url(./amazonCloneAssets/Shop-for-your-home-essentials-01.jpg);
+}
+.main-body-box02-002 {
+    background-image: url(./amazonCloneAssets/Shop-for-your-home-essentials-02.jpg);
+}
+.main-body-box02-003 {
+    background-image: url(./amazonCloneAssets/Shop-for-your-home-essentials-03.jpg);
+}
+.main-body-box02-004 {
+    background-image: url(./amazonCloneAssets/Shop-for-your-home-essentials-04.jpg);
+}
+
+
+.main-body-box03-001 {
+    background-image: url(./amazonCloneAssets/New-home-arrivals-under-$50-01.jpg);
+}
+.main-body-box03-002 {
+    background-image: url(./amazonCloneAssets/New-home-arrivals-under-$50-02.jpg);
+}
+.main-body-box03-003 {
+    background-image: url(./amazonCloneAssets/New-home-arrivals-under-$50-03.jpg);
+}
+.main-body-box03-004 {
+    background-image: url(./amazonCloneAssets/New-home-arrivals-under-$50-04.jpg);
+}
+
+
+.main-body-box04-001 {
+    background-image: url(./amazonCloneAssets/Shop-deals-in-Fashion-01.jpg);
+}
+.main-body-box04-002 {
+    background-image: url(./amazonCloneAssets/Shop-deals-in-Fashion-02.jpg);
+}
+.main-body-box04-003 {
+    background-image: url(./amazonCloneAssets/Shop-deals-in-Fashion-03.jpg);
+}
+.main-body-box04-004 {
+    background-image: url(./amazonCloneAssets/Shop-deals-in-Fashion-04.jpg);
+}
+
+
+.main-body-box05-001 {
+    background-image: url(./amazonCloneAssets/Refresh-your-space-01.jpg);
+}
+.main-body-box05-002 {
+    background-image: url(./amazonCloneAssets/Refresh-your-space-02.jpg);
+}
+.main-body-box05-003 {
+    background-image: url(./amazonCloneAssets/Refresh-your-space-03.jpg);
+}
+.main-body-box05-004 {
+    background-image: url(./amazonCloneAssets/Refresh-your-space-04.jpg);
+}
+
+
+.main-body-box06-001 {
+    background-image: url(./amazonCloneAssets/Toys-for-all-ages-01.jpg);
+}
+.main-body-box06-002 {
+    background-image: url(./amazonCloneAssets/Toys-for-all-ages-02.jpg);
+}
+.main-body-box06-003 {
+    background-image: url(./amazonCloneAssets/Toys-for-all-ages-03.jpg);
+}
+.main-body-box06-004 {
+    background-image: url(./amazonCloneAssets/Toys-for-all-ages-04.jpg);
+}
+
+
+.main-body-box07-001 {
+    background-image: url(./amazonCloneAssets/Wireless-Tech-01.jpg);
+}
+.main-body-box07-002 {
+    background-image: url(./amazonCloneAssets/Wireless-Tech-02.jpg);
+}
+.main-body-box07-003 {
+    background-image: url(./amazonCloneAssets/Wireless-Tech-03.jpg);
+}
+.main-body-box07-004 {
+    background-image: url(./amazonCloneAssets/Wireless-Tech-04.jpg);
+}
+
+
+.main-body-box08-001 {
+    background-image: url(./amazonCloneAssets/Most-loved-travel-essentials-01.jpg);
+}
+.main-body-box08-002 {
+    background-image: url(./amazonCloneAssets/Most-loved-travel-essentials-02.jpg);
+}
+.main-body-box08-003 {
+    background-image: url(./amazonCloneAssets/Most-loved-travel-essentials-03.jpg);
+}
+.main-body-box08-004 {
+    background-image: url(./amazonCloneAssets/Most-loved-travel-essentials-04.jpg);
+}
+
+
+.main-body-box09-001 {
+    background-image: url(./amazonCloneAssets/Most-loved-watches-01.jpg);
+}
+.main-body-box09-002 {
+    background-image: url(./amazonCloneAssets/Most-loved-watches-02.jpg);
+}
+.main-body-box09-003 {
+    background-image: url(./amazonCloneAssets/Most-loved-watches-03.jpg);
+}
+.main-body-box09-004 {
+    background-image: url(./amazonCloneAssets/Most-loved-watches-04.jpg);
+}
+
+
+.main-body-box10-001 {
+    background-image: url(./amazonCloneAssets/Level-up-your-beauty-01.jpg);
+}
+.main-body-box10-002 {
+    background-image: url(./amazonCloneAssets/Level-up-your-beauty-02.jpg);
+}
+.main-body-box10-003 {
+    background-image: url(./amazonCloneAssets/Level-up-your-beauty-03.jpg);
+}
+.main-body-box10-004 {
+    background-image: url(./amazonCloneAssets/Level-up-your-beauty-04.jpg);
+}
+
+
+.main-body-box11-001 {
+    background-image: url(./amazonCloneAssets/Score-the-top-PCs-01.jpg);
+}
+.main-body-box11-002 {
+    background-image: url(./amazonCloneAssets/Score-the-top-PCs-02.jpg);
+}
+.main-body-box11-003 {
+    background-image: url(./amazonCloneAssets/Score-the-top-PCs-03.jpg);
+}
+.main-body-box11-004 {
+    background-image: url(./amazonCloneAssets/Score-the-top-PCs-04.jpg);
+}
+
+
+.main-body-box12-001 {
+    background-image: url(./amazonCloneAssets/Gaming-merchandise-01.jpg);
+}
+.main-body-box12-002 {
+    background-image: url(./amazonCloneAssets/Gaming-merchandise-02.jpg);
+}
+.main-body-box12-003 {
+    background-image: url(./amazonCloneAssets/Gaming-merchandise-03.jpg);
+}
+.main-body-box12-004 {
+    background-image: url(./amazonCloneAssets/Gaming-merchandise-04.jpg);
+}
+
+
+.main-body-box13-001 {
+    background-image: url(./amazonCloneAssets/Explore-more-in-Sports-01.jpg);
+}
+.main-body-box13-002 {
+    background-image: url(./amazonCloneAssets/Explore-more-in-Sports-02.jpg);
+}
+.main-body-box13-003 {
+    background-image: url(./amazonCloneAssets/Explore-more-in-Sports-03.jpg);
+}
+.main-body-box13-004 {
+    background-image: url(./amazonCloneAssets/Explore-more-in-Sports-04.jpg);
+}
+
+
+.main-body-box14-001 {
+    background-image: url(./amazonCloneAssets/Have-more-fun-with-family-01.jpg);
+}
+.main-body-box14-002 {
+    background-image: url(./amazonCloneAssets/Have-more-fun-with-family-02.jpg);
+}
+.main-body-box14-003 {
+    background-image: url(./amazonCloneAssets/Have-more-fun-with-family-03.jpg);
+}
+.main-body-box14-004 {
+    background-image: url(./amazonCloneAssets/Have-more-fun-with-family-04.jpg);
+}
+
+
+.main-body-box15-001 {
+    background-image: url(./amazonCloneAssets/Look-your-best-this-season-01.jpg);
+}
+.main-body-box15-002 {
+    background-image: url(./amazonCloneAssets/Look-your-best-this-season-02.jpg);
+}
+.main-body-box15-003 {
+    background-image: url(./amazonCloneAssets/Look-your-best-this-season-03.jpg);
+}
+.main-body-box15-004 {
+    background-image: url(./amazonCloneAssets/Look-your-best-this-season-04.jpg);
+}
+
+
+.main-body-box16-001 {
+    background-image: url(./amazonCloneAssets/Level-up-your_gaming-01.jpg);
+}
+.main-body-box16-002 {
+    background-image: url(./amazonCloneAssets/Level-up-your_gaming-02.jpg);
+}
+.main-body-box16-003 {
+    background-image: url(./amazonCloneAssets/Level-up-your_gaming-03.jpg);
+}
+.main-body-box16-004 {
+    background-image: url(./amazonCloneAssets/Level-up-your_gaming-04.jpg);
+}
+
+
+.main-body-box17-001 {
+    background-image: url(./amazonCloneAssets/Home-&-Kitchen-essentials-01.jpg);
+}
+.main-body-box17-002 {
+    background-image: url(./amazonCloneAssets/Home-&-Kitchen-essentials-02.jpg);
+}
+.main-body-box17-003 {
+    background-image: url(./amazonCloneAssets/Home-&-Kitchen-essentials-03.jpg);
+}
+.main-body-box17-004 {
+    background-image: url(./amazonCloneAssets/Home-&-Kitchen-essentials-04.jpg);
+}
+
+
+.main-body-box18-001 {
+    background-image: url(./amazonCloneAssets/Get-your-game-on-01.jpg);
+}
+.main-body-box19-001 {
+    background-image: url(./amazonCloneAssets/Toys-under-$25-01.jpg);
+}
+.main-body-box20-001 {
+    background-image: url(./amazonCloneAssets/Smart-phones-01.webp);
+}
+
+.main-body-long-box-format {
+    height: 270px;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 270px;
+    margin-top: -250px;
+}
+
+.main-body-long-box-format p {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.main-body-long-box-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.main-body-long-box-images-format {
+    height: 210px;
+    background-size:cover;
+    background-position: center;
+}
+
+.main-body-box21-images-01 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-01.jpg);
+    width: 165px;
+}
+.main-body-box21-images-02 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-02.jpg);
+    width: 132px;
+}
+.main-body-box21-images-03 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-03.jpg);
+    width: 162px;
+}
+.main-body-box21-images-04 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-04.jpg);
+    width: 144px;
+}
+.main-body-box21-images-05 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-05.jpg);
+    width: 196px;
+}
+.main-body-box21-images-06 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-06.jpg);
+    width: 229px;
+}
+.main-body-box21-images-07 {
+    background-image: url(./amazonCloneAssets/Top-picks-for-India-07.jpg);
+    width: 186px;
+}
+
+
+.main-body-box22-images-01 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-01.jpg);
+    width: 134px;
+}
+.main-body-box22-images-02 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-02.jpg);
+    width: 136px;
+}
+.main-body-box22-images-03 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-04.jpg);
+    width: 124px;
+}
+.main-body-box22-images-04 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-03.jpg);
+    width: 125px;
+}
+.main-body-box22-images-05 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-05.jpg);
+    width: 133px;
+}
+.main-body-box22-images-06 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-06.jpg);
+    width: 133px;
+}
+.main-body-box22-images-07 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-08.jpg);
+    width: 194px;
+}
+.main-body-box22-images-08 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Books-07.jpg);
+    width: 133px;
+}
+
+
+.main-body-box23-images-01 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Toys-&-Games-01.jpg);
+    width: 234px;
+}
+.main-body-box23-images-02 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Toys-&-Games-02.jpg);
+    width: 199px;
+}
+.main-body-box23-images-03 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Toys-&-Games-03.jpg);
+    width: 163px;
+}
+.main-body-box23-images-04 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Toys-&-Games-04.jpg);
+    width: 261px;
+}
+.main-body-box23-images-05 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Toys-&-Games-05.jpg);
+    width: 135px;
+}
+.main-body-box23-images-06 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Toys-&-Games-06.jpg);
+    width: 195px;
+}
+
+
+.main-body-box24-images-01 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Sports-&-Outdoors-01.jpg);
+    width: 228px;
+}
+.main-body-box24-images-02 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Sports-&-Outdoors-07.jpg);
+    width: 200px;
+}
+.main-body-box24-images-03 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Sports-&-Outdoors-03.jpg);
+    width: 187px;
+}
+.main-body-box24-images-04 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Sports-&-Outdoors-04.jpg);
+    width: 68px;
+}
+.main-body-box24-images-05 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Sports-&-Outdoors-05.jpg);
+    width: 172px;
+}
+.main-body-box24-images-06 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Sports-&-Outdoors-06.jpg);
+    width: 200px;
+}
+
+
+.main-body-box25-images-01 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-01.jpg);
+    width: 208px;
+}
+.main-body-box25-images-02 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-02.jpg);
+    width: 124px;
+}
+.main-body-box25-images-03 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-03.jpg);
+    width: 123px;
+}
+.main-body-box25-images-04 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-04.jpg);
+    width: 128px;
+}
+.main-body-box25-images-05 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-05.jpg);
+    width: 124px;
+}
+.main-body-box25-images-06 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-06.jpg);
+    width: 124px;
+}
+.main-body-box25-images-07 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-07.jpg);
+    width: 139px;
+}
+.main-body-box25-images-08 {
+    background-image: url(./amazonCloneAssets/Most-wished-for-in-Video-Games-08.jpg);
+    width: 124px;
+}
+
+
+.main-body-box26-images-01 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-01.jpg);
+    width: 156px;
+}
+.main-body-box26-images-02 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-02.jpg);
+    width: 90px;
+}
+.main-body-box26-images-03 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-03.jpg);
+    width: 113px;
+}
+.main-body-box26-images-04 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-04.jpg);
+    width: 103px;
+}
+/* .main-body-box26-images-05 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-05.jpg);
+    width: 53px;
+} */
+.main-body-box26-images-06 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-06.jpg);
+    width: 100px;
+}
+.main-body-box26-images-07 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-07.jpg);
+    width: 189px;
+}
+.main-body-box26-images-08 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Beauty-&-Personal-Care-08.jpg);
+    width: 270px;
+}
+
+
+.main-body-box27-images-01 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-01.jpg);
+    width: 92px;
+}
+.main-body-box27-images-02 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-02.jpg);
+    width: 150px;
+}
+.main-body-box27-images-03 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-03.jpg);
+    width: 200px;
+}
+.main-body-box27-images-04 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-04.jpg);
+    width: 59px;
+}
+.main-body-box27-images-05 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-05.jpg);
+    width: 59px;
+}
+.main-body-box27-images-06 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-06.jpg);
+    width: 157px;
+}
+.main-body-box27-images-07 {
+    background-image: url(./amazonCloneAssets/Best-Sellers-in-Home-&-Kitchen-07.jpg);
+    width: 198px;
+}
+
+
+.main-body-box26 {
+    margin-bottom: 20px;
+}

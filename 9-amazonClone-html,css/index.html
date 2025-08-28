@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="body.css">
+  <link rel="stylesheet" href="footer.css">
+
+  <link rel="shortcut icon" href="./amazonCloneAssets/amazon-shortcut-logo.jpg"
+    type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar-01" id="nav-bar">
+      <div class="nav-logo">
+        <!-- <img src="./amazonCloneAssets/amazon_logo.png" alt="Amazon-Logo"> -->
+      </div>
+
+      <div class="nav-address-container hover-border">
+        <p class="color-grey">Deliver to</p>
+        <div class="nav-address">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="style-bold">India</p>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <div class="nav-category-type">
+          <select class="nav-search-options" name="category" id="category">
+            <option value="All">All</option>
+            <option value="Men">Men</option>
+            <option value="Women">Women</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Kitchen">Kitchen</option>
+            <option value="Kids">Kids</option>
+          </select>
+        </div>
+
+        <div class="nav-search-field">
+          <input class="nav-search-input" type="text" placeholder="Search Amazon">
+        </div>
+
+        <div class="nav-search-icon-container">
+          <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
+        </div>
+
+      </div>
+
+      <div class="nav-language hover-border">
+        <i class="fa-solid fa-flag"></i>
+        <select class="nav-language-option style-bold" name="language" id="language">
+          <option value="English-En">EN</option>
+          <option value="Hindi-Hi">HI</option>
+          <option value="Japnese-Ja">JA</option>
+          <option value="Chinese-Ch">CH</option>
+          <option value="Korean-Ko">KO</option>
+        </select>
+      </div>
+      <div class="nav-account hover-border">
+        <p class="color-grey">Hello, sign in</p>
+        <a class="style-bold" href="">Account & List</a>
+      </div>
+
+      <div class="nav-return hover-border">
+        <a class="color-grey">Returns</a>
+        <a class="style-bold">& Orders</a>
+      </div>
+      </div>
+
+      <div class="nav-cart hover-border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p class="style-bold">Cart</p>
+      </div>
+      </div>
+    </nav>
+
+    <nav class="nav-bar-02">
+      <div class="burger-all hover-border">
+        <i class="fa-solid fa-bars"></i>
+        <p>All</p>
+      </div>
+      <a href="" class="hover-border">Today's Deals</a>
+      <a href="" class="hover-border">Customer Service</a>
+      <a href="" class="hover-border">Registry</a>
+      <a href="" class="hover-border">Gift Cards</a>
+      <a href="" class="hover-border">Sell</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-body">
+      <div class="main-body-information">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+          delivery.</p>
+        <a href="">Click here to go to amazon.in</a>
+      </div>
+    </div>
+
+    <div class="main-body-boxes">
+      <div class="main-body-box01 main-body-boxes-format">
+        <p class="main-body-box-heading">Gaming accessories</p>
+        <div class="main-body-box01-001 main-body-inner-boxes-format">
+          <p>Headsets</p>
+        </div>
+        <div class="main-body-box01-002 main-body-inner-boxes-format">
+          <p>Keyboards</p>
+        </div>
+        <div class="main-body-box01-003 main-body-inner-boxes-format">
+          <p>Computer mice</p>
+        </div>
+        <div class="main-body-box01-004 main-body-inner-boxes-format">
+          <p>Chairs</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box02 main-body-boxes-format">
+        <p class="main-body-box-heading">Shop for your home essentials</p>
+        <div class="main-body-box02-001 main-body-inner-boxes-format">
+          <p>Cleaning Tools</p>
+        </div>
+        <div class="main-body-box02-002 main-body-inner-boxes-format">
+          <p>Home Storage</p>
+        </div>
+        <div class="main-body-box02-003 main-body-inner-boxes-format">
+          <p>Home Decor</p>
+        </div>
+        <div class="main-body-box02-004 main-body-inner-boxes-format">
+          <p>Bedding</p>
+        </div>
+        <a href="" class="main-body-box-ending">Discover more in Home</a>
+      </div>
+
+      <div class="main-body-box03 main-body-boxes-format">
+        <p class="main-body-box-heading">New home arrivals under $50</p>
+        <div class="main-body-box03-001 main-body-inner-boxes-format">
+          <p>Kitchen & dining</p>
+        </div>
+        <div class="main-body-box03-002 main-body-inner-boxes-format">
+          <p>Home improvement</p>
+        </div>
+        <div class="main-body-box03-003 main-body-inner-boxes-format">
+          <p>Decor</p>
+        </div>
+        <div class="main-body-box03-004 main-body-inner-boxes-format">
+          <p>Bedding & bath</p>
+        </div>
+        <a href="" class="main-body-box-ending">Shop the letest from Home</a>
+      </div>
+
+      <div class="main-body-box04 main-body-boxes-format">
+        <p class="main-body-box-heading">Shop deals in Fashion</p>
+        <div class="main-body-box04-001 main-body-inner-boxes-format">
+          <p>Jeans under $50</p>
+        </div>
+        <div class="main-body-box04-002 main-body-inner-boxes-format">
+          <p>Tops under $25</p>
+        </div>
+        <div class="main-body-box04-003 main-body-inner-boxes-format">
+          <p>Dresses under $30</p>
+        </div>
+        <div class="main-body-box04-004 main-body-inner-boxes-format">
+          <p>Shoes under $50</p>
+        </div>
+        <a href="" class="main-body-box-ending">See all deals</a>
+      </div>
+
+      <div class="main-body-box05 main-body-boxes-format">
+        <p class="main-body-box-heading">Refresh your space</p>
+        <div class="main-body-box05-001 main-body-inner-boxes-format">
+          <p>Dining</p>
+        </div>
+        <div class="main-body-box05-002 main-body-inner-boxes-format">
+          <p>Home</p>
+        </div>
+        <div class="main-body-box05-003 main-body-inner-boxes-format">
+          <p>Kitchen</p>
+        </div>
+        <div class="main-body-box05-004 main-body-inner-boxes-format">
+          <p>Health and Beauty</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box06 main-body-boxes-format">
+        <!-- <p class="main-body-box-heading">Toys for all ages</p> -->
+        <div class="main-body-box06-001 main-body-inner-boxes-format">
+          <p>Ride on's</p>
+        </div>
+        <div class="main-body-box06-002 main-body-inner-boxes-format">
+          <p>Building & construction</p>
+        </div>
+        <div class="main-body-box06-003 main-body-inner-boxes-format">
+          <p>Dolls and Doll Houses</p>
+        </div>
+        <div class="main-body-box06-004 main-body-inner-boxes-format">
+          <p>Swimming pools</p>
+        </div>
+        <a href="" class="main-body-box-ending">See all</a>
+      </div>
+
+      <div class="main-body-box07 main-body-boxes-format">
+        <!-- <p class="main-body-box-heading">Wireless Tech</p> -->
+        <div class="main-body-box07-001 main-body-inner-boxes-format">
+          <p>Smartphones</p>
+        </div>
+        <div class="main-body-box07-002 main-body-inner-boxes-format">
+          <p>Watches</p>
+        </div>
+        <div class="main-body-box07-003 main-body-inner-boxes-format">
+          <p>Headphones</p>
+        </div>
+        <div class="main-body-box07-004 main-body-inner-boxes-format">
+          <p>Tablets</p>
+        </div>
+        <a href="" class="main-body-box-ending">Discover more</a>
+      </div>
+
+      <div class="main-body-box08 main-body-boxes-format">
+        <p class="main-body-box-heading">Most-loved travel essentials</p>
+        <div class="main-body-box08-001 main-body-inner-boxes-format">
+          <p>Backpacks</p>
+        </div>
+        <div class="main-body-box08-002 main-body-inner-boxes-format">
+          <p>Suitcases</p>
+        </div>
+        <div class="main-body-box08-003 main-body-inner-boxes-format">
+          <p>Accessories</p>
+        </div>
+        <div class="main-body-box08-004 main-body-inner-boxes-format">
+          <p>Handbags</p>
+        </div>
+        <a href="" class="main-body-box-ending">Discover more</a>
+      </div>
+
+      <div class="main-body-box21 main-body-long-box-format">
+        <p>Tops picks for India</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box21-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box21-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box21-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box21-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box21-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box21-images-06 main-body-long-box-images-format"></div>
+          <div class="main-body-box21-images-07 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+
+      <div class="main-body-box27 main-body-long-box-format">
+        <p>Best Sellers in Home & Kitchen</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box27-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box27-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box27-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box27-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box27-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box27-images-06 main-body-long-box-images-format"></div>
+          <div class="main-body-box27-images-07 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+
+      <div class="main-body-box09 main-body-boxes-format">
+        <p class="main-body-box-heading">Most-loved watches</p>
+        <div class="main-body-box09-001 main-body-inner-boxes-format">
+          <p>Women</p>
+        </div>
+        <div class="main-body-box09-002 main-body-inner-boxes-format">
+          <p>Men</p>
+        </div>
+        <div class="main-body-box09-003 main-body-inner-boxes-format">
+          <p>Girls</p>
+        </div>
+        <div class="main-body-box09-004 main-body-inner-boxes-format">
+          <p>Boys</p>
+        </div>
+        <a href="" class="main-body-box-ending">Discover more</a>
+      </div>
+
+      <div class="main-body-box10 main-body-boxes-format">
+        <p class="main-body-box-heading">Level up your beauty</p>
+        <div class="main-body-box10-001 main-body-inner-boxes-format">
+          <p>Makeup</p>
+        </div>
+        <div class="main-body-box10-002 main-body-inner-boxes-format">
+          <p>Brushes</p>
+        </div>
+        <div class="main-body-box10-003 main-body-inner-boxes-format">
+          <p>Sponges</p>
+        </div>
+        <div class="main-body-box10-004 main-body-inner-boxes-format">
+          <p>Mirrors</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box11 main-body-boxes-format">
+        <!-- <p class="main-body-box-heading">Score the to PCs</p> -->
+        <div class="main-body-box11-001 main-body-inner-boxes-format">
+          <p>Desktops</p>
+        </div>
+        <div class="main-body-box11-002 main-body-inner-boxes-format">
+          <p>Laptops</p>
+        </div>
+        <div class="main-body-box11-003 main-body-inner-boxes-format">
+          <p>Hard Drives</p>
+        </div>
+        <div class="main-body-box11-004 main-body-inner-boxes-format">
+          <p>PC Accessories</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box12 main-body-boxes-format">
+        <p class="main-body-box-heading">Gaming merchandise</p>
+        <div class="main-body-box12-001 main-body-inner-boxes-format">
+          <p>Apparel</p>
+        </div>
+        <div class="main-body-box12-002 main-body-inner-boxes-format">
+          <p>Hats</p>
+        </div>
+        <div class="main-body-box12-003 main-body-inner-boxes-format">
+          <p>Action figures</p>
+        </div>
+        <div class="main-body-box12-004 main-body-inner-boxes-format">
+          <p>Mugs</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box22 main-body-long-box-format">
+        <p>Best Sellers in Books</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box22-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-06 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-07 main-body-long-box-images-format"></div>
+          <div class="main-body-box22-images-08 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+
+      <div class="main-body-box25 main-body-long-box-format">
+        <p>Most wished for in Video Games</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box25-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-06 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-07 main-body-long-box-images-format"></div>
+          <div class="main-body-box25-images-08 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+
+      <div class="main-body-box13 main-body-boxes-format">
+        <p class="main-body-box-heading">Explore more in Sports</p>
+        <div class="main-body-box13-001 main-body-inner-boxes-format">
+          <p>Cycling</p>
+        </div>
+        <div class="main-body-box13-002 main-body-inner-boxes-format">
+          <p>Running</p>
+        </div>
+        <div class="main-body-box13-003 main-body-inner-boxes-format">
+          <p>Exercise & Fitness </p>
+        </div>
+        <div class="main-body-box13-004 main-body-inner-boxes-format">
+          <p>Golf</p>
+        </div>
+        <a href="" class="main-body-box-ending">Explore more</a>
+      </div>
+
+      <div class="main-body-box14 main-body-boxes-format">
+        <p class="main-body-box-heading">Have more fun with family</p>
+        <div class="main-body-box14-001 main-body-inner-boxes-format">
+          <p>Outdoor Play Sets</p>
+        </div>
+        <div class="main-body-box14-002 main-body-inner-boxes-format">
+          <p>Learning Toys</p>
+        </div>
+        <div class="main-body-box14-003 main-body-inner-boxes-format">
+          <p>Action Figures</p>
+        </div>
+        <div class="main-body-box14-004 main-body-inner-boxes-format">
+          <p>Pretend Play Toys</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box15 main-body-boxes-format">
+        <p class="main-body-box-heading">Look your best this season</p>
+        <div class="main-body-box15-001 main-body-inner-boxes-format">
+          <p>For Her</p>
+        </div>
+        <div class="main-body-box15-002 main-body-inner-boxes-format">
+          <p>For Him</p>
+        </div>
+        <div class="main-body-box15-003 main-body-inner-boxes-format">
+          <p>For Teens</p>
+        </div>
+        <div class="main-body-box15-004 main-body-inner-boxes-format">
+          <p>For Kids</p>
+        </div>
+        <a href="" class="main-body-box-ending">See more</a>
+      </div>
+
+      <div class="main-body-box16 main-body-boxes-format">
+        <p class="main-body-box-heading">Level up your gaming</p>
+        <div class="main-body-box16-001 main-body-inner-boxes-format">
+          <p>PC gaming</p>
+        </div>
+        <div class="main-body-box16-002 main-body-inner-boxes-format">
+          <p>Xbox</p>
+        </div>
+        <div class="main-body-box16-003 main-body-inner-boxes-format">
+          <p>PlayStation</p>
+        </div>
+        <div class="main-body-box16-004 main-body-inner-boxes-format">
+          <p>Nintendo Switch</p>
+        </div>
+        <a href="" class="main-body-box-ending">Shop the latest in gaming</a>
+      </div>
+
+      <div class="main-body-box17 main-body-boxes-format">
+        <p class="main-body-box-heading">Home & Kitchen essentials</p>
+        <div class="main-body-box17-001 main-body-inner-boxes-format">
+          <p>Coffee Machines</p>
+        </div>
+        <div class="main-body-box17-002 main-body-inner-boxes-format">
+          <p>Multi-Cookers</p>
+        </div>
+        <div class="main-body-box17-003 main-body-inner-boxes-format">
+          <p>Vacuum Cleaner</p>
+        </div>
+        <div class="main-body-box17-004 main-body-inner-boxes-format">
+          <p>Iron and Steamer</p>
+        </div>
+        <a href="" class="main-body-box-ending">Shop now</a>
+      </div>
+
+      <div class="main-body-box18 main-body-boxes-format">
+        <p class="main-body-box-heading">Get your game on</p>
+        <div class="main-body-box18-001 main-body-single-inner-boxes-format"></div>
+        <a href="" class="main-body-box-ending main-body-box-ending-a">Shop gaming</a>
+      </div>
+
+      <div class="main-body-box19 main-body-boxes-format">
+        <p class="main-body-box-heading">Toys under $25</p>
+        <div class="main-body-box19-001 main-body-single-inner-boxes-format"></div>
+        <a href="" class="main-body-box-ending main-body-box-ending-a">Shop now</a>
+      </div>
+
+      <div class="main-body-box20 main-body-boxes-format">
+        <p class="main-body-box-heading">Smartphones</p>
+        <div class="main-body-box20-001 main-body-single-inner-boxes-format"></div>
+        <a href="" class="main-body-box-ending main-body-box-ending-a">Shop now</a>
+      </div>
+
+      <div class="main-body-box23 main-body-long-box-format">
+        <p>Best Sellers in Toys & Games</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box23-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box23-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box23-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box23-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box23-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box23-images-06 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+
+      <div class="main-body-box24 main-body-long-box-format">
+        <p>Best Sellers in Sports & Outdoors</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box24-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box24-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box24-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box24-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box24-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box24-images-06 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+
+      <div class="main-body-box26 main-body-long-box-format">
+        <p>Best Sellers in Beauty & Personal Care</p>
+        <div class="main-body-long-box-images">
+          <div class="main-body-box26-images-01 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-02 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-03 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-04 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-05 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-06 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-07 main-body-long-box-images-format"></div>
+          <div class="main-body-box26-images-08 main-body-long-box-images-format"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-pannel-01">
+      <div class="hr-line"></div>
+      <p class="footer-pannel-01-p">See personalized recommendations</p>
+      <a href="" class="footer-pannel-01-signin"><button>Sign in</button></a>
+      <div class="registration">
+        <p class="newcustomer">New customer? </p>
+        <a href="" class="starthere"> Start here</a>
+      </div>
+      <div class="hr-line"></div>
+    </div>
+    <div class="footer-pannel-02">
+      <a href="#nav-bar">Back to top</a>
+    </div>
+    <div class="footer-pannel-03">
+      <div class="forcontent">
+        <div class="forcontent-data">
+          <p>Get to Know Us</p>
+          <a href="">Careers</a>
+          <a href="">Blog</a>
+          <a href="">About Amazon</a>
+          <a href="">Investor Relations</a>
+          <a href="">Amazon Devices</a>
+          <a href="">Amazon Science</a>
+        </div>
+        <div class="forcontent-data">
+          <p>Make Money with Us</p>
+          <a href="">Sell products on Amazon</a>
+          <a href="">Sell on Amazon Business</a>
+          <a href="">Sell apps on Amazon</a>
+          <a href="">Become an Affiliate</a>
+          <a href="">Advertise Your Products</a>
+          <a href="">Self-Publish with Us</a>
+          <a href="">Host an Amazon Hub</a>
+          <pre><a href="">› See More Make Money
+with Us</a></pre>
+        </div>
+        <div class="forcontent-data">
+          <p>Amazon Payment Products</p>
+          <a href="">Amazon Business Card</a>
+          <a href="">Shop with Points</a>
+          <a href="">Reload Your Balance</a>
+          <a href="">Amazon Currency Converter</a>
+          <a href=""></a>
+        </div>
+        <div class="forcontent-data">
+          <p>Let Us Help You</p>
+          <pre><a href="">Amazon and COVID-
+19</a></pre>
+          <a href="">Your Account</a>
+          <a href="">Your Orders</a>
+          <pre><a href="">Shipping Rates &
+Policies</a></pre>
+          <pre><a href="">Returns &
+Replacements</a></pre>
+          <pre><a href="">Manage Your 
+Content and Devices</a></pre>
+          <a href="">Help</a>
+          <a href=""></a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </div>
+    <div class="footer-pannel-04">
+      <div class="logo-amazon"></div>
+      <div class="footer-pannel-04-content">
+        <div class="content-04-selector-01-language">
+          <div class="icon-01">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="selector-01">
+            <select name="Language" id="language">
+              <option value="English-En">English-En</option>
+              <option value="Hindi-Hi">Hindi-Hi</option>
+              <option value="Japnese-Ja">Japnese-Ja</option>
+              <option value="Korean-Ko">Korean-Ko</option>
+              <option value="Nepali-Ne">Nepali-Ne</option>
+            </select>
+          </div>
+        </div>
+        <div class="content-04-selector-02-currency">
+          <div class="icon-02">
+            <i class="fa-solid fa-dollar-sign"></i>
+          </div>
+          <div class="content">
+            <a href="">USD - U.S. Dollar </a>
+          </div>
+        </div>
+        <div class="content-04-selector-03-country">
+          <div class="icon-03">
+            <i class="fa-solid fa-flag-usa"></i>
+          </div>
+          <div class="content">
+            <a href="">United State</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-pannel-05">
+      <div class="footer-box">
+      </div>
+      <div class="footer-box-rows">
+        <div class="foot-box">
+          <pre><p>Amazon
+Music</p></pre>
+          <pre><a href="">Stream 
+millions 
+of songs</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Amazon Ads</p>
+          <pre><a href="">Reach customers 
+wherever they 
+spend their time</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>6pm</p>
+          <pre><a href="">Score deals 
+on fashion brands</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>AbeBooks</p>
+          <pre><a href="">Books, art 
+& collectibles</a></pre>
+        </div>
+
+
+        <div class="foot-box">
+          <p>ACX</p>
+          <pre><a href="">Audiobook Publishing 
+Made Easy</a></pre>
+        </div>
+
+
+        <div class="foot-box">
+          <p>Sell on Amazon</p>
+          <pre><a href="">Start a Selling 
+Account</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Veeqo</p>
+          <pre><a href="">Shipping Software 
+Inventory 
+Management</a></pre>
+        </div>
+
+      </div>
+
+
+      <div class="footer-box-rows">
+        <div class="foot-box">
+          <pre><p>Amazon
+Business</p></pre>
+          <pre><a href="">Everything
+For
+Your
+Business</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>AmazonGlobal</p>
+          <pre><a href="">Ship Orders 
+Internationally</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Home Services</p>
+          <pre><a href="">Experienced Pros 
+Happiness 
+Guarantee</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <pre><p>Amazon Web 
+Services</p></pre>
+          <pre><a href="">Scalable Cloud 
+Computing 
+Services</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Audible</p>
+          <pre><a href="">Listen to Books
+& Original 
+Audio Performances</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Box Office Mojo</p>
+          <pre><a href="">Find Movie 
+Box Office Data</a></pre>
+        </div>
+
+
+        <div class="foot-box">
+          <p>Goodreads</p>
+          <pre><a href="">Book reviews 
+& 
+recommendations</a></pre>
+        </div>
+      </div>
+
+      <div class="footer-box-rows">
+        <div class="foot-box">
+          <p>IMDb</p>
+          <pre><a href="">Movies, TV 
+& Celebrities	</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>IMDbPro</p>
+          <pre><a href="">Get Info 
+Entertainment 
+Professionals 
+Need</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <pre><p>Kindle Direct 
+Publishing</p></pre>
+          <pre><a href="">Indie Digital & 
+Print Publishing 
+Made Easy</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <pre><p>Prime Video 
+Direct</p></pre>
+          <pre><a href="">Video 
+Distribution 
+Made Easy</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Shopbop</p>
+          <pre><a href="">Designer 
+Fashion Brands</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Woot!</p>
+          <pre><a href="">Deals and 
+Shenanigans</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Zappos</p>
+          <pre><a href="">Shoes & 
+Clothing</a></pre>
+        </div>
+      </div>
+
+
+      <div class="footer-box-rows">
+        <div class="foot-box">
+          <p>Ring</p>
+          <pre><a href="">Smart Home 
+Security 
+Systems</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>eero WiFi</p>
+          <pre><a href="">Stream 4K Video 
+in Every Room</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Blink</p>
+          <pre><a href="">Smart Security 
+for Every Home</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Neighbors App</p>
+          <pre><a href="">Real-Time 
+Crime 
+& Safety Alerts</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>Amazon Subscription
+            Boxes</p>
+          <pre><a href="">Top subscription boxes - 
+right to your door</a></pre>
+        </div>
+
+        <div class="foot-box">
+          <p>PillPack</p>
+          <pre><a href="">Pharmacy 
+Simplified</a></pre>
+        </div>
+
+        <div class="foot-box tohide">
+          You can write something here whenever you want.
+        </div>
+
+      </div>
+
+      <div class="information">
+        <a href="">Conditions of Use</a>
+        <a href="">Privacy Notice</a>
+        <a href="">Consumer Health Data Privacy Disclosure</a>
+        <a href="">Your Ads Privacy Choices</a>
+      </div>
+      <div class="copyright">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
