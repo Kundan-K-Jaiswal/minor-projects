@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  background-image: linear-gradient( to left, red, white,blue);
+  animation: changeClr 5s ease-in-out infinite;
+}
+@keyframes changeClr {
+  to {
+    background-image: linear-gradient( to right, red, white,blue);
+  }
+}
+
+.heading {
+  color: white;
+  background-color: black;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.playbtn {
+  width: 100vw;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+div button p {
+  font-size: 150px;
+  background-color: black;
+}
+.playbtn button {
+  height: 200px;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50%;
+  /* transition: border 1s ease-in-out 0s; */
+}
+
+.playbtn button:hover {
+  border: 5px solid black;
+}
+
+.score {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100vw;
+  justify-content: center;
+}
+
+.score p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.message {
+  background-color:rgb(218, 156, 81);
+  width: 300px;
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 770px) {
+  .playbtn button {
+    background-color: black;
+    transform: scale(0.7);
+  }
+  .playbtn button p {
+    font-size: 130px;
+  }
+}
