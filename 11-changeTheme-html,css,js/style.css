@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.boxL {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  top: 230px;
+}
+
+.boxD {
+  background-color: rgb(184, 94, 94);
+  height: 100px;
+  width: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  top: 230px;
+}
