@@ -1,0 +1,182 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --darker : #0d1b2a;
+  --darker1 : #1b263b;
+  --medium :#415a77;
+  --lighter1 : #778da9;
+  --lighter : #e0e1dd;
+
+  --red : #2f3e46;
+  --red1 :#354f52;
+  --plain : #52796f;
+  --darker2 : #84a98c;
+  --plain1 : #cad2c5;
+}
+
+body {
+  /* background-color: var(--darker); */
+  background-image: linear-gradient(to right, var(--darker), var(--darker1), var(--medium));
+}
+
+/* Header Styling */
+.navbar {
+  background-color: var(--darker1);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.leftHeading {
+  font-family: "Oswald", sans-serif;
+  /* border-right: 2px solid var(--lighter); */
+}
+
+.leftHeading h1 {
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: var(--lighter);
+}
+
+.rightHeading {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.rightHeading button {
+  height: 30px;
+  width: 150px;
+  background-color: var(--medium);
+  border-radius: 10px;
+  border: 2px solid black;
+  color: var(--lighter);
+  cursor: pointer;
+}
+
+
+/* Main Styling */
+.decleration {
+  text-align: center;
+  height: 150px;
+}
+
+.decleration p {
+  color: var(--lighter1);
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.decleration button {
+  height: 40px;
+  width: 350px;
+  margin-top: 10px;
+  background-color: var(--medium);
+  border-radius: 10px ;
+  color: var(--lighter);
+  font-size: 15px;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  width: 28.92vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  background-color: #DCC48E;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--darker);
+}
+
+.playerDetails {
+  position: absolute;
+  top: 30vmin;
+  font-size: 30px;
+}
+
+.playerDetails2 {
+  right: 3vw;
+  text-align: right;
+}
+
+.playerDetails1 {
+  left: 3vw;
+}
+
+.pName {
+  color: #EAEFD3;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.playerName {
+  color: #B3C0A4;
+  margin-bottom: 50px;
+}
+
+.winCount {
+  color: var(--lighter);
+  font-size: 30px;
+  text-align: center;
+}
+
+.turn1 {
+  position: absolute;
+  left: 150px;
+  bottom: 200px;
+}
+
+.turn2 {
+  position: absolute;
+  right: 150px;
+  bottom: 200px;
+}
+
+.material-symbols-outlined {
+  scale: 3;
+  color: beige;
+  text-align: center;
+}
+
+.turn i p {
+  font-size: 15px;
+  text-decoration:overline;
+  margin-top: 3px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.playAgainBig {
+  position: absolute;
+  top: 90vh;
+  left: 36.5vw;
+  font-size: 30px;
+  background-color: #af8a34;
+  width: 380px;
+  height: 50px;
+  border-radius: 10px;
+}
