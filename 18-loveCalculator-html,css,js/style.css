@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 2rem;
+  font-size: 60px;
+  color: red;
+}
+
+.container {
+  background: url(./image4bg.webp);
+  background-size: cover;
+  height: 100vh;
+}
+
+.name-container {
+  display: flex;
+  gap: 30px;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.name1, .name2 {
+  display: flex;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.loves {
+  display: flex;
+}
+
+.calculation-container {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.first {
+  letter-spacing: 8px;
+  margin-bottom: 1rem;
+}
+
+.calculation-container p {
+  margin-bottom: 1rem;
+}
