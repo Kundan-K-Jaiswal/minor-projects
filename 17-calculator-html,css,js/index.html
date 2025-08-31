@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq&family=Oswald:wght@200..700&family=Playpen+Sans+Arabic:wght@100..800&family=Playpen+Sans+Deva:wght@100..800&family=Playpen+Sans+Hebrew:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="calculator-container">
+      <div class="screen">
+        <pre class="operation"></pre>
+        <p class="history"></p>
+        <p class="data">0</p>
+      </div>
+      <div class="keys">
+        <button class="btn btn-1" value = "**"><i class="fa-solid fa-less-than fa-rotate-90 pow"></i></button>
+        <button class="btn btn-2" value="clear">CE</button>
+        <button class="btn btn-3" value="clean">C</button>
+        <button class="btn btn-4" value="back"><i class="fa-solid fa-arrow-left back"></i></button>
+        <button class="btn btn-5" value="**2">X<sup>2</sup></button>
+        <button class="btn btn-6" value="%" title="modulus">%</button>
+        <button class="btn btn-7" value="/">/</button>
+        <button class="btn btn-8" value="*">x</button>
+        <button class="btn btn-9" value="7">7</button>
+        <button class="btn btn-10" value="8">8</button>
+        <button class="btn btn-11" value="9">9</button>
+        <button class="btn btn-12" value="-">-</button>
+        <button class="btn btn-13" value="4">4</button>
+        <button class="btn btn-14" value="5">5</button>
+        <button class="btn btn-15" value="6">6</button>
+        <button class="btn btn-16" value="+">+</button>
+        <button class="btn btn-17" value="1">1</button>
+        <button class="btn btn-18" value="2">2</button>
+        <button class="btn btn-19" value="3">3</button>
+        <button class="btn btn-20" value="0">0</button>
+        <button class="btn btn-21" value=".">.</button>
+        <button class="btn btn-22" value="=">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
